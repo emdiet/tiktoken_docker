@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  tiktoken-cl100k-base-server:
+    build: .
+    ports:
+      - "7170:80"
